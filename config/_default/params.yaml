@@ -13,17 +13,17 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: 'Hong Kong Baptist University'
-    description: 'Academic site of Lewen Wang on computational and theoretical chemistry.'
+    org_name: 'City University of Hong Kong'
+    description: 'Academic site of Xuan Li on 2D materials, carbon nanotubes, and materials characterization.'
     twitter: ''
   analytics:
-    google_analytics: 'G-5FT9F48DR6'
+    google_analytics: 'G-MFXYTXS3JW'
     baidu_tongji: ''
     plausible: ''
     fathom: ''
     pirsch: ''
   verification:
-    google: 'OsBBSuNlUCAThlPHszjlp0Mahpfmy6LBlHiVgf6jt-w'
+    google: 's7kgx0PieafF43YV3fC4_YbV0rvPyTyWWO9hYdFuFlg'
     baidu: ''
 
 
@@ -36,12 +36,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Lewen Wang"
+      text: "Xuan Li"
 
 # Site footer
 footer:
   copyright:
-    notice: '© 2025 Lewen Wang'
+    notice: '© 2025 Xuan Li'
     license:
       enable: true
       allow_derivatives: true

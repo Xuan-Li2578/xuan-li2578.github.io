@@ -16,7 +16,7 @@ zh:
   contentDir: content/zh
   # outputs:
   #   home: [HTML, RSS, JSON]
-  title: 王乐文
+  title: 李璇
   params:
     header:
       navbar:
@@ -26,7 +26,7 @@ zh:
         show_search: true
         show_theme_chooser: true
         logo:
-          text: "王乐文"
+          text: "李璇"
   menu:
     main:
       - name: 关于我
