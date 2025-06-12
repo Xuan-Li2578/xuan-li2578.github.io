@@ -103,7 +103,7 @@ skills:
 
 ---
 
-你好，欢迎来到我的主页！我目前是[香港城市大学化学系](https://www.cityu.edu.hk/chem/)的科研助理，在[李淑惠教授](https://scholars.cityu.edu.hk/en/persons/thuchly)指导下工作。我的研究重点是二维材料生长、表征和建立自动转移平台。
+你好，欢迎来到我的主页！我目前是[香港城市大学化学系](https://www.cityu.edu.hk/chem/)的科研助理。我的研究重点是二维材料生长、表征和建立自动转移平台。
 
 我于2015年至2019年在[北京化工大学](https://www.buct.edu.cn/)学习并获得高分子材料与工程专业的学士学位，随后于2019年至2022年在[中山大学](https://www.sysu.edu.cn/)完成材料工程专业的学业并获得硕士学位，师从[石磊教授](https://mse.sysu.edu.cn/teacher/176)。在硕士学习期间，我专注于二维材料和碳纳米管研究。
 

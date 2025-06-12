@@ -104,7 +104,7 @@ skills:
 ---
 
 
-Hello, welcome to my homepage! I am currently a Research Assistant at [the Department of Chemistry, City University of Hong Kong](https://www.cityu.edu.hk/chem/), working with [Prof. Thuc Hue LY](https://scholars.cityu.edu.hk/en/persons/thuchly). My research focuses on 2D materials grows, characterization and establishing auto transfer platform.
+Hello, welcome to my homepage! I am currently a Research Assistant at [the Department of Chemistry, City University of Hong Kong](https://www.cityu.edu.hk/chem/). My research focuses on 2D materials grows, characterization and establishing auto transfer platform.
 
 I received my Bachelor's degree in Polymer Materials and Engineering from [Beijing University of Chemical Technology](https://www.buct.edu.cn/) (2015–2019), and later completed my Master's degree in Materials Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/) (2019–2022) under the supervision of [Prof. Lei Shi](https://mse.sysu.edu.cn/teacher/176). During my master's studies, I specialized in 2D materials and carbon nanotubes research.
 
