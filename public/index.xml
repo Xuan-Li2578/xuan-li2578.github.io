@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me | Xuan Li</title>
-    <link>http://localhost:51752/</link>
-      <atom:link href="http://localhost:51752/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:55527/</link>
+      <atom:link href="http://localhost:55527/index.xml" rel="self" type="application/rss+xml" />
     <description>About Me</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 30 Dec 2024 10:00:00 +0800</lastBuildDate>
     <image>
-      <url>http://localhost:51752/media/icon_hu_645fa481986063ef.png</url>
+      <url>http://localhost:55527/media/icon_hu_645fa481986063ef.png</url>
       <title>About Me</title>
-      <link>http://localhost:51752/</link>
+      <link>http://localhost:55527/</link>
     </image>
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:51752/experience/</link>
+      <link>http://localhost:55527/experience/</link>
       <pubDate>Mon, 30 Dec 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:51752/experience/</guid>
+      <guid>http://localhost:55527/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gallery</title>
-      <link>http://localhost:51752/gallery/</link>
+      <link>http://localhost:55527/gallery/</link>
       <pubDate>Mon, 30 Dec 2024 10:00:00 +0800</pubDate>
-      <guid>http://localhost:51752/gallery/</guid>
+      <guid>http://localhost:55527/gallery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://localhost:51752/publication/</link>
+      <link>http://localhost:55527/publication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:51752/publication/</guid>
+      <guid>http://localhost:55527/publication/</guid>
       <description></description>
     </item>
     

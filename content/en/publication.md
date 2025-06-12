@@ -10,6 +10,15 @@ sections:
     title: "Selected Publications"
     content:
       groups:
+        - year: 2025
+          yeartext: "**2025**"
+          items:
+            - title: "Anharmonic suppression of ultra-narrow graphene nanoribbons confined in carbon nanotubes through host–guest interactions"
+              subtitle: "Appl. Phys. Lett. 126, 203101 (2025)"
+              text: "Bingze Wu, Yuxiang Gao, Yaping Zhao, **Xuan Li**, Kunpeng Tang, Chunguang Zhai, Xianhong Fan, Lei Shi, Mingguang Yao"
+              image: /media/publication/2025/0271143.png
+              link: https://doi.org/10.1063/5.0271143
+
         - year: 2024
           yeartext: "**2024**"
           items:
