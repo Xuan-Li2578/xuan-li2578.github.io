@@ -12,11 +12,6 @@ sections:
     content:
       title: 2025
       text: |-
-        **May 21**
-
-        My First 100km Ride.🚴
-        ![cycling_record](/media/gallery/2025/cycling_record.jpg)
-
 
   - block: markdown
     content:
@@ -44,7 +39,7 @@ sections:
         
         **December 1**
         
-        My two sweethearts.
+        Two sweethearts.
         ![bobby](/media/gallery/2023/bobby.JPG)
         ![sis](/media/gallery/2023/sis.JPG)
 
@@ -52,21 +47,9 @@ sections:
     content:
       title: 2022
       text: |-
-        **October 21**
-
-        Have a look at my testing topo, what a mess!
-        ![testing_topo](/media/gallery/2022/testing_topo.JPG)
-        
-        **June 25**
-        
-        Graduation photo taken at Sun Yat-sen University 🎓 .
-        ![master_graduation](/media/gallery/2022/graduation.JPG)
-        I achieved something I had dreamed of since I was little! 
-        ![child_graduation](/media/gallery/2022/child_graduation.JPG)
-
         **June 15**
 
-        Ready to gradutate!
+        Ready to gradutate again!
         ![dog](/media/gallery/2022/me_and_darling.jpg)
 
   - block: markdown
@@ -75,6 +58,6 @@ sections:
       text: |-
         **June 20**
 
-        Borrow a graduation gown so I can pretend to graduate the same year as her.
+        Ready to gradutate.
         ![buct_graduation](/media/gallery/2019/buct_graduation.jpg)
 ---

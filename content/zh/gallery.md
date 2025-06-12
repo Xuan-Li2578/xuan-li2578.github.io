@@ -12,10 +12,6 @@ sections:
     content:
       title: 2025
       text: |-
-        **5月21日**
-
-        记录一下第一次百公里骑行。
-        ![cycling_record](/media/gallery/2025/cycling_record.jpg)
 
 
   - block: markdown
@@ -52,18 +48,6 @@ sections:
     content:
       title: 2022
       text: |-
-        **10月21日**
-
-        两眼发昏。
-        ![testing_topo](/media/gallery/2022/testing_topo.JPG)
-        
-        **6月25日**
-        
-        毕业咯 🎓 。
-        ![master_graduation](/media/gallery/2022/graduation.JPG)
-        完成了我小时候的一个梦想！ 
-        ![child_graduation](/media/gallery/2022/child_graduation.JPG)
-
         **6月15日**
 
         第二次一起拍毕业照。
@@ -75,7 +59,7 @@ sections:
       text: |-
         **6月20日**
 
-        假装跟她同届毕业。
+        第一次一起拍毕业照。
         ![buct_graduation](/media/gallery/2019/buct_graduation.jpg)
 
 ---
