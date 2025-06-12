@@ -50,16 +50,7 @@ sections:
       text: |-
         **6月15日**
 
-        第二次一起拍毕业照。
+        一起拍毕业照。
         ![dog](/media/gallery/2022/me_and_darling.jpg)
-
-  - block: markdown
-    content:
-      title: 2019
-      text: |-
-        **6月20日**
-
-        第一次一起拍毕业照。
-        ![buct_graduation](/media/gallery/2019/buct_graduation.jpg)
 
 ---

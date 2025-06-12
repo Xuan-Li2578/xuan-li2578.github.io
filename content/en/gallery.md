@@ -52,12 +52,4 @@ sections:
         Ready to gradutate again!
         ![dog](/media/gallery/2022/me_and_darling.jpg)
 
-  - block: markdown
-    content:
-      title: 2019
-      text: |-
-        **June 20**
-
-        Ready to gradutate.
-        ![buct_graduation](/media/gallery/2019/buct_graduation.jpg)
 ---
