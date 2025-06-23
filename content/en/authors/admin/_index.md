@@ -41,7 +41,7 @@ education:
     date_end: 2022-06-30
     summary: |
       - Major Coursework: Polymer Materials Science and Engineering; Electron microscopy and analysis; Preparation Technology of Photovoltaic Materials; Practice for energy materials and devices
-      - Research Area: 2D Materials, Carbon Nanotubes
+      - Research Area: 1D Materials, Carbon Nanotubes
       - Awards and Honours: First Prize of Scholarship for Postgraduates in 2020
   
   - area: Bachelor of Engineering in Polymer Materials and Engineering
@@ -104,8 +104,8 @@ skills:
 ---
 
 
-Hello, welcome to my homepage! I am currently a Research Assistant at [the Department of Chemistry, City University of Hong Kong](https://www.cityu.edu.hk/chem/). My research focuses on 2D materials grows, characterization and establishing auto transfer platform.
+Hello, welcome to my homepage! I am currently a Research Assistant at [the Department of Chemistry, City University of Hong Kong](https://www.cityu.edu.hk/chem/). My research currently focuses on low-dimension materials grows，like the monolayer graphene and establishing auto transfer platform.
 
-I received my Bachelor's degree in Polymer Materials and Engineering from [Beijing University of Chemical Technology](https://www.buct.edu.cn/) (2015–2019), and later completed my Master's degree in Materials Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/) (2019–2022) under the supervision of [Prof. Lei Shi](https://mse.sysu.edu.cn/teacher/176). During my master's studies, I specialized in 2D materials and carbon nanotubes research.
+I received my Bachelor's degree in Polymer Materials and Engineering from [Beijing University of Chemical Technology](https://www.buct.edu.cn/) (2015–2019), and later completed my Master's degree in Materials Engineering at [Sun Yat-sen University](https://www.sysu.edu.cn/) (2019–2022) under the supervision of [Prof. Lei Shi](https://mse.sysu.edu.cn/teacher/176). During my master’s studies, I specialized in 1D atomic chains and carbon nanotubes research.
 
 Outside of academics, I love traveling and botany.

@@ -46,6 +46,12 @@ sections:
               image: /media/publication/2023/PC220544.png
               link: https://doi.org/10.7536/PC220544
 
+            - title: "[PATENT] 一种提高碳链产率的方法"
+              text: "石磊, 张纪瓯, **李璇**"
+              attachments:
+                - url: "/uploads/PATENT-A method for increasing the yield of carbon chains.pdf"
+                  label: "PDF"
+
         - year: 2021
           yeartext: "**2021**"
           items:

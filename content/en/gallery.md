@@ -12,6 +12,10 @@ sections:
     content:
       title: 2025
       text: |-
+        **5月30日**
+
+        Arriving at CityU！
+        ![arrived_cityu](/media/gallery/2025/arrive_cityu.jpg)
 
   - block: markdown
     content:
@@ -33,15 +37,10 @@ sections:
       text: |-
         **December 16**
 
-        Traveled to ChongQing (again).
+        Businsee trip in ChongQing.
         ![Bro](/media/gallery/2023/gold_and_iron.JPG)
         ![hongyadong](/media/gallery/2023/hongyadong.JPG)
         
-        **December 1**
-        
-        Two sweethearts.
-        ![bobby](/media/gallery/2023/bobby.JPG)
-        ![sis](/media/gallery/2023/sis.JPG)
 
   - block: markdown
     content:
@@ -49,7 +48,7 @@ sections:
       text: |-
         **June 15**
 
-        Ready to gradutate again!
+        Happy graduation！
         ![dog](/media/gallery/2022/me_and_darling.jpg)
 
 ---

@@ -46,6 +46,12 @@ sections:
               image: /media/publication/2023/PC220544.png
               link: https://doi.org/10.7536/PC220544
 
+            - title: "[PATENT] A method for increasing the yield of carbon chains"
+              text: "Lei Shi, Jiou Zhang, **Xuan Li**"
+              attachments:
+                - url: "/uploads/PATENT-A method for increasing the yield of carbon chains.pdf"
+                  label: "PDF"
+
         - year: 2021
           yeartext: "**2021**"
           items:

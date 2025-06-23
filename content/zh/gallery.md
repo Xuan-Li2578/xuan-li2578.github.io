@@ -12,7 +12,10 @@ sections:
     content:
       title: 2025
       text: |-
+        **5月30日**
 
+        来到香港城市大学!
+        ![arrived_cityu](/media/gallery/2025/arrive_cityu.jpg)
 
   - block: markdown
     content:
@@ -37,12 +40,6 @@ sections:
         会发光的吧，老铁。
         ![Bro](/media/gallery/2023/gold_and_iron.JPG)
         ![hongyadong](/media/gallery/2023/hongyadong.JPG)
-        
-        **12月1日**
-        
-        两只喵。
-        ![bobby](/media/gallery/2023/bobby.JPG)
-        ![sis](/media/gallery/2023/sis.JPG)
 
   - block: markdown
     content:
