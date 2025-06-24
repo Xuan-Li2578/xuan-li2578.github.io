@@ -10,6 +10,13 @@ sections:
     title: "主要发表论文"
     content:
       groups:
+        - year:
+          yeartext: "Submitted"
+          items:
+            - title: "Ambient-Stable Ultra-Narrow Tellurene Nanoribbons Achieved via Pressure-Driven Nanoconfinement Reaction."
+              subtitle: " J. Am. Chem. Soc. Submitted. "
+              text: "Wu, B. #; **Li, X. #**; Yu, L.; Gao, Y.; Zhang, W.; Zhao, Y.; Liu, S.; Li, S.; Yue, L.; Jiang, Z.; Yin, Y.; Li, Z.; Hou, X.; Geng, Y.; Wang, D.; Yao, Z.; Zhao, H. J.; Cao, K.; Shi, L.; Yao, M. "
+
         - year: 2025
           yeartext: "**2025**"
           items:
