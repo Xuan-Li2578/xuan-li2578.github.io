@@ -12,7 +12,7 @@ sections:
     content:
       title: 2025
       text: |-
-        **5月30日**
+        **March 20**
 
         Arriving at CityU！
         ![arrived_cityu](/media/gallery/2025/arrive_cityu.jpg)

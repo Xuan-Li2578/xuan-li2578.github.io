@@ -12,7 +12,7 @@ sections:
     content:
       title: 2025
       text: |-
-        **5月30日**
+        **3月20日**
 
         来到香港城市大学!
         ![arrived_cityu](/media/gallery/2025/arrive_cityu.jpg)
