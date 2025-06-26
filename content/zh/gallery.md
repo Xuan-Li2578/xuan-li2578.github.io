@@ -41,13 +41,4 @@ sections:
         ![Bro](/media/gallery/2023/gold_and_iron.JPG)
         ![hongyadong](/media/gallery/2023/hongyadong.JPG)
 
-  - block: markdown
-    content:
-      title: 2022
-      text: |-
-        **6月15日**
-
-        一起拍毕业照。
-        ![dog](/media/gallery/2022/me_and_darling.jpg)
-
 ---

@@ -40,15 +40,5 @@ sections:
         Businsee trip in ChongQing.
         ![Bro](/media/gallery/2023/gold_and_iron.JPG)
         ![hongyadong](/media/gallery/2023/hongyadong.JPG)
-        
-
-  - block: markdown
-    content:
-      title: 2022
-      text: |-
-        **June 15**
-
-        Happy graduation！
-        ![dog](/media/gallery/2022/me_and_darling.jpg)
 
 ---
