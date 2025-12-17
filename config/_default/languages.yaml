@@ -41,3 +41,6 @@ zh:
       - name: 画廊
         url: gallery/
         weight: 55
+      - name: 资源
+        url: resources/
+        weight: 60

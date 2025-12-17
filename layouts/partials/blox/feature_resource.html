@@ -1,0 +1,183 @@
+{{ $categories := .wcBlock.content.categories }}
+{{ $hash := .wcBlock.content.password_hash | default "a77555934888f183219a45e98820e2f74db4bed0dc1e955e9f5babeea661303e" }}
+{{ $modal_title := .wcBlock.content.modal_title | default "Access Restricted" }}
+{{ $modal_text := .wcBlock.content.modal_text | default "Please contact me for the password." }}
+{{ $placeholder := .wcBlock.content.placeholder | default "Enter password" }}
+{{ $submit_btn := .wcBlock.content.submit_btn | default "Submit" }}
+{{ $error_msg := .wcBlock.content.error_msg | default "Incorrect password." }}
+{{ $redirect_msg := .wcBlock.content.redirect_msg | default "Too many attempts, redirecting..." }}
+{{ $redirect_url := .wcBlock.content.redirect_url | default "/" }}
+{{ $download_text := .wcBlock.content.download_text | default "Download PDF" }}
+{{ $empty_text := .wcBlock.content.empty_text | default "No content available" }}
+
+<div id="protected-content" style="display: none;">
+  <style>
+    /* Container */
+    #protected-content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    /* Card Styles */
+    .pub-card { display: flex; align-items: flex-start; gap: 1.5rem; border: 1px solid #eee; border-radius: 8px; padding: 1.5rem; background-color: transparent; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 1rem; transition: transform 0.2s; }
+    .pub-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .pub-content { flex: 1; }
+    .pub-title { margin: 0 0 0.5rem 0; font-size: 1.1rem; font-weight: 600; line-height: 1.4; }
+    .pub-title a { color: #1565c0; text-decoration: none; }
+    .pub-title a:hover { text-decoration: underline; }
+    .pub-subtitle { font-size: 0.9rem; color: #666; margin-bottom: 0.5rem; font-style: italic; }
+    .pub-text { font-size: 0.95rem; color: inherit; margin-bottom: 1rem; line-height: 1.6; }
+    .pub-btn { display: inline-block; padding: 6px 16px; background-color: #1565c0; color: white !important; border-radius: 4px; text-decoration: none; font-size: 0.85rem; transition: background-color 0.2s; }
+    .pub-btn:hover { background-color: #0d47a1; text-decoration: none; }
+    
+    /* Details/Summary Styles */
+    details { 
+      display: block;
+      width: 100%;
+      box-sizing: border-box; 
+      margin-bottom: 1.5rem; 
+      border: 1px solid rgba(0,0,0,0.1); 
+      border-radius: 8px; 
+      overflow: hidden; 
+      background: transparent; 
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
+    }
+    
+    summary { 
+      width: 100%; 
+      box-sizing: border-box; 
+      cursor: pointer; 
+      padding: 1rem 1.5rem; 
+      font-weight: 600; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      user-select: none; 
+      background: transparent; 
+      color: #333;
+      list-style: none;
+      outline: none;
+    }
+    
+    summary:hover { background-color: rgba(0,0,0,0.02); }
+    summary::after { content: '+'; font-size: 1.2rem; opacity: 0.6; }
+    details[open] summary::after { content: '-'; }
+    summary::-webkit-details-marker { display: none; }
+    .details-body { padding: 1.5rem; border-top: 1px solid rgba(0,0,0,0.1); }
+
+    /* Dark Mode Support */
+    @media (prefers-color-scheme: dark) {
+      details { border-color: rgba(255,255,255,0.8); box-shadow: none; }
+      .details-body { border-top-color: rgba(255,255,255,0.8); }
+      .pub-card { border-color: rgba(255,255,255,0.2); }
+      .pub-title a { color: #64b5f6; }
+      .pub-subtitle { color: #aaa; }
+      summary { color: #fff; }
+      .pub-text { color: #ddd; }
+    }
+    
+    /* Hugo Blox Dark Mode Class Support */
+    .dark details { border-color: rgba(255,255,255,0.8); box-shadow: none; }
+    .dark .details-body { border-top-color: rgba(255,255,255,0.8); }
+    .dark summary:hover { background-color: rgba(255,255,255,0.05); }
+    .dark .pub-card { border-color: rgba(255,255,255,0.2); }
+    .dark .pub-title a { color: #64b5f6; }
+    .dark .pub-subtitle { color: #aaa; }
+    .dark summary { color: #fff; }
+    .dark .pub-text { color: #ddd; }
+  </style>
+
+  {{ if .wcBlock.content.title }}
+  <h2 style="text-align: center; margin-bottom: 2.5rem; color: inherit; font-size: 2.5rem; font-weight: 800;">{{ .wcBlock.content.title }}</h2>
+  {{ end }}
+
+  {{ range $categories }}
+  <details>
+    <summary>{{ .name }}</summary>
+    <div class="details-body">
+      {{ if .items }}
+        {{ range .items }}
+        <div class="pub-card">
+          <div class="pub-content">
+            <h4 class="pub-title">
+              <a href="{{ .link }}" target="_blank">{{ .title }}</a>
+            </h4>
+            {{ if .subtitle }}<div class="pub-subtitle">{{ .subtitle }}</div>{{ end }}
+            {{ if .text }}<div class="pub-text">{{ .text }}</div>{{ end }}
+            {{ if .link }}<a href="{{ .link }}" class="pub-btn" target="_blank">{{ $download_text }}</a>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+      {{ else }}
+        <p style="color: #666; font-style: italic; text-align: center;">{{ $empty_text }}</p>
+      {{ end }}
+    </div>
+  </details>
+  {{ end }}
+</div>
+
+<div id="password-modal" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: flex; justify-content: center; align-items: center; z-index: 9999;">
+  <div style="background: white; padding: 2rem; border-radius: 8px; text-align: center; max-width: 400px; width: 90%;">
+    <h3 style="color: #333;">{{ $modal_title }}</h3>
+    <p style="color: #666;">{{ $modal_text }}</p>
+    <input type="password" id="password-input" placeholder="{{ $placeholder }}" style="padding: 8px; width: 80%; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px;">
+    <br>
+    <button onclick="checkPassword()" style="padding: 8px 20px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">{{ $submit_btn }}</button>
+    <p id="error-message" style="color: red; margin-top: 10px; display: none;"></p>
+  </div>
+</div>
+
+<script>
+  const targetHash = "{{ $hash }}";
+  let attempts = 0;
+  const maxAttempts = 3;
+  const redirectUrl = "{{ $redirect_url }}";
+  const errorMsgText = "{{ $error_msg }}";
+  const redirectMsgText = "{{ $redirect_msg }}";
+
+  async function sha256(message) {
+    const msgBuffer = new TextEncoder().encode(message);
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    return hashHex;
+  }
+
+  async function checkPassword() {
+    const input = document.getElementById('password-input').value;
+    const hash = await sha256(input);
+    
+    if (hash === targetHash) {
+      document.getElementById('password-modal').style.display = 'none';
+      document.getElementById('protected-content').style.display = 'block';
+      sessionStorage.setItem('resource_access', 'granted');
+    } else {
+      attempts++;
+      const errorMsg = document.getElementById('error-message');
+      errorMsg.style.display = 'block';
+      if (attempts >= maxAttempts) {
+        errorMsg.innerText = redirectMsgText;
+        setTimeout(() => {
+          window.location.href = redirectUrl;
+        }, 1500);
+      } else {
+        errorMsg.innerText = errorMsgText + " " + (maxAttempts - attempts) + " attempts left.";
+      }
+    }
+  }
+
+  // Check if already authenticated in this session
+  if (sessionStorage.getItem('resource_access') === 'granted') {
+    document.getElementById('password-modal').style.display = 'none';
+    document.getElementById('protected-content').style.display = 'block';
+  }
+  
+  // Allow Enter key to submit
+  document.getElementById('password-input').addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+      checkPassword();
+    }
+  });
+</script>

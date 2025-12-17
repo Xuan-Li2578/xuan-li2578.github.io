@@ -16,4 +16,7 @@ main:
   - name: Gallery
     url: gallery/
     weight: 40
+  - name: Resources
+    url: resources/
+    weight: 50
 
